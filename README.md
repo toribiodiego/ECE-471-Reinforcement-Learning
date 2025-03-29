@@ -3,7 +3,7 @@
 > This repository contains the code for **ECE471: Reinforcement Learning**, a 3-credit graduate-level course at The Cooper Union for the Advancement of Science and Art, exploring core reinforcement learning principles through rigorous study and practical programming assignments.
 
 
-## Experimentation with PyTorch
+## Reinforcement Learning
 **Independent Study, Fall 2024**  
 **Instructor:** Professor Chris Curro
 
@@ -21,7 +21,7 @@ The primary resource for this course is the textbook [*Reinforcement Learning: A
 - Temporal-difference learning and function approximation
 
 
-## Repository Structure
+### Repository Structure
 
 - **P01** – *Programming Assignment 1*  
   Implements multi-armed bandit algorithms to RL fundamental concepts such as epsilon-greedy action selection and reward updating methods. This assignment establishes the groundwork for understanding action-value estimation and the balance between exploration and exploitation.
@@ -36,5 +36,6 @@ The primary resource for this course is the textbook [*Reinforcement Learning: A
     Includes a detailed report and implementation of a deep reinforcement learning agent for Checkers. The agent is trained solely via self-play using an enhanced Proximal Policy Optimization (PPO) framework. Key improvements include orthogonal weight initialization, a custom Adam optimizer with an adjusted epsilon, Generalized Advantage Estimation (GAE), mini-batch updates, normalized advantages, clipped surrogate objectives, and global gradient clipping. Performance evaluations demonstrate the agent's ability to learn ~~and master~~ Checkers through self-play.
 
 
-## Final Project
+### Final Project
 
+The project, *Checkers Agent via Self-Play and Proximal Policy Optimization (PPO)*, focuses on creating a reinforcement learning agent capable of mastering Checkers exclusively via self-play, utilizing the PPO framework initially described in the original [PPO](https://arxiv.org/pdf/1707.06347) paper. Initially, we validated our PPO implementation on benchmark environments such as CartPole and Lunar Landing to ensure correctness and efficiency. Next, we demonstrated its effectiveness by extending it to Tic-Tac-Toe, confirming that our agent could learn strategic gameplay through self-play. Ultimately, we successfully trained an agent to play Checkers, showcasing clear strategic improvements against random opponents. Through this process, we developed a systematic approach to applying deep reinforcement learning methodologies to domains where these techniques are less commonly explored.
