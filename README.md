@@ -1,14 +1,27 @@
 
 
+> This repository contains the code for **ECE471: Reinforcement Learning**, a 3-credit graduate-level course at The Cooper Union for the Advancement of Science and Art, exploring core reinforcement learning principles through rigorous study and practical programming assignments.
 
-> This repository contains code for **ECE471: Reinforcement Learning (Independent Study, Fall 2024)**, a 3-credit graduate course conducted as an independent study under the guidance of **Professor Chris Curro**. Weekly meetings were held to discuss textbook readings from *Reinforcement Learning: An Introduction* by Sutton & Barto (2018), while practical programming assignments provided hands-on experience with foundational RL concepts.
+
+## Experimentation with PyTorch
+**Independent Study, Fall 2024**  
+**Instructor:** Professor Chris Curro
+
+### Overview
+
+This independent study provides a practical introduction to reinforcement learning by exploring core topics such as Markov Decision Processes, dynamic programming, Monte Carlo methods, and temporal-difference learning. Through structured discussions, targeted programming assignments, and a comprehensive final project, students build the theoretical foundations and practical expertise needed to develop RL agents that can learn and adapt in complex environments.
+
+### Material
+
+The primary resource for this course is the textbook [*Reinforcement Learning: An Introduction*](https://www.goodreads.com/book/show/42601538-reinforcement-learning) by Sutton & Barto (2018), which covers:
+
+- Modeling and solving Markov Decision Processes
+- Dynamic programming techniques
+- Monte Carlo methods for policy evaluation
+- Temporal-difference learning and function approximation
 
 
-## Course Overview
-
-This course offers a comprehensive introduction to reinforcement learning by covering key topics such as Markov Decision Processes, dynamic programming, Monte Carlo methods, temporal-difference learning, and function approximation. Both model-based and model-free RL algorithms are examined through theoretical discussions and practical assignments. The curriculum emphasizes the design and implementation of RL agents capable of learning and adapting in complex environments.
-
-## Codebase Structure
+## Repository Structure
 
 - **P01** – *Programming Assignment 1*  
   Implements multi-armed bandit algorithms to RL fundamental concepts such as epsilon-greedy action selection and reward updating methods. This assignment establishes the groundwork for understanding action-value estimation and the balance between exploration and exploitation.
