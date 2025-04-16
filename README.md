@@ -39,16 +39,16 @@ The primary resource for this course is the textbook [*Reinforcement Learning: A
 └── README.md
 ```
 
-- **P01** – *Programming Assignment 1*  
+- **`P01.ipynb`** – *Programming Assignment 1*  
   -  Introduces the fundamentals of reinforcement learning through multi-armed bandit problems using epsilon-greedy strategies and reward updating.
 
-- **P02** – *Programming Assignment 2*  
+- **`P02.ipynb`** – *Programming Assignment 2*  
   - Develops a custom racetrack environment to explore agent behavior and policy evaluation via off-policy Monte Carlo methods.
 
-- **P03** – *Programming Assignment 3*  
+- **`P03.ipynb`** – *Programming Assignment 3*  
   - Explores on-policy methods within a simulated Markov Decision Process framework, examining performance trade-offs and convergence through various update strategies.
 
-- **Final_Project** – *RL Self-Play Agent for Checkers using PPO*  
+- **`Final_Project.ipynb`** – *RL Self-Play Agent for Checkers using PPO*  
   - Demonstrates a deep reinforcement learning approach using self-play and an enhanced PPO framework, with detailed performance analysis in the accompanying report.
 
 
