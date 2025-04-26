@@ -1,4 +1,4 @@
-# Proximal Policy Optimization with Self-Play: Training Strategic Checkers Agents
+## PPO Self-Play for Training Checkers Agents
 
 ### Objective
 
