@@ -28,7 +28,8 @@ Training metrics including policy loss, value loss, entropy, and KL divergence w
 ```
 .
 ├── Final_Project_Report.pdf
-└── README.md
+├── README.md
+└── artifacts
 ```
 
 - **Final_Project.ipynb**: Contains the complete code implementation, from PPO training to evaluation.
@@ -79,7 +80,6 @@ Notable strategic development was observed:
 
 - Trained agents extended gameplay significantly, indicating strategic decision-making.
 - Performance gains stabilized after extended training, indicating diminishing returns.
-
 
 
 
