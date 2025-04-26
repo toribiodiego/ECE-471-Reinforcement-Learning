@@ -4,16 +4,6 @@
 
 This project implements and evaluates a Proximal Policy Optimization (PPO) algorithm enhanced with various modifications for stability and efficiency, specifically applied to training reinforcement learning agents to play CartPole, Tic-Tac-Toe, and Checkers. The core aim was to explore self-play dynamics and evaluate the performance improvements from specific PPO enhancements.
 
----
-
-## Files in the Repository
-
-- **Final_Project.ipynb**: Contains the complete code implementation, from PPO training to evaluation.
-- **Final_Project_Presentation.pdf**: Slides summarizing the project approach, methodology, and key results.
-- **Final_Project_Report.pdf**: Comprehensive report detailing methods, experiments, results, and analysis.
-
----
-
 ## Methodology
 
 The project expands upon the baseline PPO algorithm with several enhancements:
@@ -30,7 +20,21 @@ The project expands upon the baseline PPO algorithm with several enhancements:
 - **Global Gradient Clipping**: Protects against exploding gradients.
 - **Separate Actor and Critic Networks**: Prevents interference, optimizing performance for complex environments.
 
----
+
+
+
+## Directory Structure
+```
+.
+├── Final_Project_Report.pdf
+└── README.md
+```
+
+- **Final_Project.ipynb**: Contains the complete code implementation, from PPO training to evaluation.
+- **Final_Project_Presentation.pdf**: Slides summarizing the project approach, methodology, and key results.
+- **Final_Project_Report.pdf**: Comprehensive report detailing methods, experiments, results, and analysis.
+
+
 
 ## Results
 
