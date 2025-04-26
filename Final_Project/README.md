@@ -20,7 +20,8 @@ The project expands upon the baseline PPO algorithm with several enhancements:
 - **Global Gradient Clipping**: Protects against exploding gradients.
 - **Separate Actor and Critic Networks**: Prevents interference, optimizing performance for complex environments.
 
-
+### Tools
+Training metrics including policy loss, value loss, entropy, and KL divergence were systematically tracked via TensorBoard and Weights & Biases, enabling effective debugging and analysis.
 
 
 ### Directory Structure
@@ -81,12 +82,9 @@ Notable strategic development was observed:
 
 
 
-## Experiment Logging
-Training metrics including policy loss, value loss, entropy, and KL divergence were systematically tracked via TensorBoard and Weights & Biases, enabling effective debugging and analysis.
 
 
-
-## Replicating Results
+### Replication
 The provided Jupyter Notebook (`Final_Project.ipynb`) contains the code and configurations necessary to replicate all experiments and results. Configurations and hyperparameters used are thoroughly documented within.
 
 - For detailed analyses, insights, and extended results, please refer to the [Final Project Report](Final_Project_Report.pdf).
