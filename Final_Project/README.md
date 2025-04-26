@@ -23,7 +23,7 @@ The project expands upon the baseline PPO algorithm with several enhancements:
 
 
 
-## Directory Structure
+### Directory Structure
 ```
 .
 ├── Final_Project_Report.pdf
@@ -36,16 +36,18 @@ The project expands upon the baseline PPO algorithm with several enhancements:
 
 
 
-## Results
+### Results
 
-### CartPole-v1
+#### CartPole-v1
 The enhanced PPO implementation successfully achieved stable and optimal performance:
 - **Episodic Return**: Consistently exceeded 400, demonstrating effective learning and convergence.
 - **Entropy Loss**: Decreased gradually, indicating successful exploration-to-exploitation transition.
 - **Value and Policy Loss**: Showed steady convergence, validating stable training dynamics.
 
-### Tic-Tac-Toe
+#### Tic-Tac-Toe
 Performance improved significantly with training:
+
+<div align="center">
 
 | Checkpoint | Agent Move Order | Wins | Losses | Draws |
 |------------|------------------|------|--------|-------|
@@ -54,13 +56,16 @@ Performance improved significantly with training:
 | Easy       | Second           | 290  | 636    | 74    |
 | Medium     | First            | 775  | 178    | 47    |
 | Medium     | Second           | 439  | 543    | 18    |
+</div>
 
 - Agent demonstrated increased strategic play when moving first.
 - Performance against opponents improved consistently across checkpoints.
 - Agent improved but still struggled significantly when moving second.
 
-### Checkers
+#### Checkers
 Notable strategic development was observed:
+
+<div align="center">
 
 | Evaluation Scenario                          | Agent Wins (%) | Avg. Moves Per Game |
 |----------------------------------------------|----------------|---------------------|
@@ -69,21 +74,19 @@ Notable strategic development was observed:
 | Trained (2000 games) vs. Random              | 54.8%          | 162.30              |
 | Trained (5000 games, Agent First) vs. Random | 56.5%          | 161.03              |
 | Trained (5000 games, Random First)           | 55.0%          | 159.89              |
+</div>
 
 - Trained agents extended gameplay significantly, indicating strategic decision-making.
 - Performance gains stabilized after extended training, indicating diminishing returns.
 
----
+
 
 ## Experiment Logging
 Training metrics including policy loss, value loss, entropy, and KL divergence were systematically tracked via TensorBoard and Weights & Biases, enabling effective debugging and analysis.
 
----
+
 
 ## Replicating Results
 The provided Jupyter Notebook (`Final_Project.ipynb`) contains the code and configurations necessary to replicate all experiments and results. Configurations and hyperparameters used are thoroughly documented within.
 
----
-
-For detailed analyses, insights, and extended results, please refer to the [Final Project Report](Final_Project_Report.pdf).
-
+- For detailed analyses, insights, and extended results, please refer to the [Final Project Report](Final_Project_Report.pdf).
