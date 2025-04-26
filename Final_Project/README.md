@@ -4,11 +4,11 @@
 
 This project implements and evaluates a Proximal Policy Optimization (PPO) algorithm enhanced with various modifications for stability and efficiency, specifically applied to training reinforcement learning agents to play CartPole, Tic-Tac-Toe, and Checkers. The core aim was to explore self-play dynamics and evaluate the performance improvements from specific PPO enhancements.
 
-## Methodology
+### Approach
 
 The project expands upon the baseline PPO algorithm with several enhancements:
 
-### PPO Enhancements:
+#### PPO Enhancements:
 - **Orthogonal Initialization**: Stabilizes learning through improved gradient flow.
 - **Custom Adam Optimizer**: Adjusted epsilon parameter for numerical stability.
 - **Generalized Advantage Estimation (GAE)**: Smooths advantage estimates, balancing bias and variance.
