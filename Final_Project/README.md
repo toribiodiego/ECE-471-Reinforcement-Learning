@@ -1,6 +1,6 @@
 # Proximal Policy Optimization with Self-Play: Training Strategic Checkers Agents
 
-## Project Overview
+### Objective
 
 This project implements and evaluates a Proximal Policy Optimization (PPO) algorithm enhanced with various modifications for stability and efficiency, specifically applied to training reinforcement learning agents to play CartPole, Tic-Tac-Toe, and Checkers. The core aim was to explore self-play dynamics and evaluate the performance improvements from specific PPO enhancements.
 
